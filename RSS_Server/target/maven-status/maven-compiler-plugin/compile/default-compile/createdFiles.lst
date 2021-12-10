@@ -1,0 +1,7 @@
+com\example\repository\CategoryRepository.class
+com\example\BasicApplication.class
+com\example\controllers\NewsController.class
+com\example\controllers\CategoryController.class
+com\example\repository\NewsRepository.class
+com\example\models\News.class
+com\example\models\Category.class

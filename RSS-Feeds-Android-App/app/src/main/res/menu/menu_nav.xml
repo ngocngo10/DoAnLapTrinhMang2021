@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="@string/nav_sources"
+        android:id="@+id/nav_sources"
+        android:icon="@android:drawable/ic_menu_send"
+        android:checkable="true"/>
+    <item
+        android:title="@string/nav_add_source"
+        android:id="@+id/nav_add_source"
+        android:icon="@android:drawable/ic_menu_send"
+        android:checkable="true"/>
+
+    <item android:title="@string/nav_categories">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_vn_express"
+                    android:icon="@android:drawable/ic_menu_send"
+                    android:title="@string/nav_vn_express" />
+                <item
+                    android:id="@+id/nav_tuoi_tre_online"
+                    android:icon="@android:drawable/ic_menu_send"
+                    android:title="@string/nav_tuoi_tre_online" />
+                <item
+                    android:id="@+id/nav_other"
+                    android:icon="@android:drawable/ic_menu_send"
+                    android:title="@string/nav_other" />
+            </group>
+        </menu>
+    </item>
+    <item android:title="@string/nav_about_rss_reader">
+        <menu>
+            <item
+                android:title="@string/nav_about"
+                android:id="@+id/nav_about"
+                android:icon="@android:drawable/ic_menu_send"/>
+        </menu>
+    </item>
+</menu>
